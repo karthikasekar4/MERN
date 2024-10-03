@@ -1,0 +1,93 @@
+body{
+    background-color:black;
+}
+.hero-section {
+    background: linear-gradient(135deg, #00ff6a, #2d2d2d);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button */
+  .hero-section .btn {
+    background-color: #00ff6a;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 12px rgba(0, 255, 106, 0.3);
+  }
+  
+  .hero-section .btn:hover {
+    background-color: #009a44;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 20px rgba(0, 255, 106, 0.5);
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 50px 0;
+  }
+  
+  .features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .feature-card {
+    padding: 30px;
+    border: 1px solid #00ff6a;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(0, 255, 106, 0.4);
+  }
+  
+  .feature-card h4 {
+    color: #00ff6a;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    padding: 50px 0;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    font-size: 1.2rem;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #2d2d2d;
+    padding: 20px 0;
+    color: white;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .sec{
+    background-color: rgb(56, 150, 39);
+  }

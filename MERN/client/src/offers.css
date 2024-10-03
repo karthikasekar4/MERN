@@ -1,0 +1,73 @@
+/* Styles for the NewOffers section */
+.new-offers {
+    padding: 30px;
+    background-color: #000000; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(62, 178, 36, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0;
+  }
+  
+  /* Heading Styles */
+  .new-offers h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray for text */
+    text-align: center; /* Center the heading */
+  }
+  
+  /* Unordered list styles */
+  .new-offers ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual offer styles */
+  .new-offers li {
+    background-color: #fff; /* White background for each offer */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect for offers */
+  .new-offers li:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+  }
+  
+  /* Offer Title Styles */
+  .new-offers h3 {
+    font-size: 22px;
+    color: #2c3e50; /* A rich dark blue color */
+    margin-bottom: 10px;
+  }
+  
+  /* Offer Description Styles */
+  .new-offers p {
+    font-size: 16px;
+    color: #7f8c8d; /* Lighter gray for description */
+    margin: 0;
+  }
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    .new-offers {
+      padding: 20px;
+    }
+  
+    .new-offers h2 {
+      font-size: 24px;
+    }
+  
+    .new-offers h3 {
+      font-size: 20px;
+    }
+  
+    .new-offers p {
+      font-size: 14px;
+    }
+  }
+  
